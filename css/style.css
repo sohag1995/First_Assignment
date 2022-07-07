@@ -1,0 +1,251 @@
+/* common css start */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    outline: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* common css end */
+
+
+/* banner section start */
+#banner {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-image: url(../images/donation1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.donate {
+    text-align: center;
+}
+
+.donate h1 {
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
+
+}
+
+.help {
+    padding-top: 40px;
+   
+}
+.donate p {
+	font-weight: 400;
+	color: rgb(237, 234, 78);
+	padding: 15px 150px;
+	font-size: 25px;
+  
+}
+.anchor {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.anchor a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    background-color: brown;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* banner section end */
+
+
+/* support section start */
+.money {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.taka {
+    text-align: center;
+}
+
+.taka button {
+    text-align: center;
+    border: none;
+    padding: 20px 10px;
+    margin-left: 5px;
+    color: rgb(105, 100, 100);
+    font-weight: 700;
+    background-color: rgb(233, 230, 230);
+}
+
+.taka .middle {
+    color: rgb(237, 46, 12);
+    border: 3px solid rgb(195, 108, 108);
+    background-color: rgb(203, 199, 199);
+}
+
+.other {
+    color: rgb(105, 100, 100);
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.hr {
+    width: 25%;
+    background-color: rgb(200, 196, 196);
+    margin-bottom: 30px;
+}
+
+.donate_now {
+    text-align: center;
+}
+
+.donate_now a {
+    color: white;
+    padding: 10px;
+    background-color: brown;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* support section end */
+
+
+/* donate_plan section start */
+#donate_plan {
+    margin-bottom: 100px;
+}
+
+.money .plan {
+    font-weight: 900;
+    font-size: larger;
+}
+.money p{
+    font-size: 25px;
+}
+.service_one {
+    width: 370px;
+    background-color: aquamarine;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 30px 20px;
+}
+
+.service_two {
+    width: 390px;
+    background-color: rgb(126, 166, 235);
+    display: inline-block;
+    margin-left: 20px;
+    padding: 30px 20px;
+}
+
+.service_three {
+    width: 390px;
+    background-color: rgb(243, 150, 171);
+    display: inline-block;
+    margin-left: 20px;
+    padding: 30px 20px;
+}
+
+/* donate_plan section end */
+
+
+/* service section start */
+#service {
+    display: flex;
+}
+
+.half_width {
+    margin-left: 20px;
+}
+
+.half_width img {
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.half_width h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.half_width p {
+    padding-bottom: 20px;
+    padding-right: 30px;
+    font-size: 30px;
+}
+
+.half_width a {
+    padding: 15px 20px;
+    background-color: tomato;
+    border-radius: 5px;
+    font-size: 30px;
+    color: white;
+}
+
+/* service section end */
+
+
+
+/* updates section start */
+.money p {
+    padding: 0px 200px;
+    padding-bottom: 30px;
+}
+
+.money .pressure {
+    padding: 0px 400px;
+    padding-bottom: 50px;
+}
+
+.box {
+    text-align: center;
+
+}
+
+.box a {
+    padding: 10px 20px;
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.box input {
+    padding: 12px 40px 12px 10px;
+    background-color: rgb(138, 103, 171);
+    border-radius: 5px;
+    border: none;
+}
+
+.box form {
+    padding-bottom: 100px;
+}
+
+/* updates section end */
+
+
+/* footer section start */
+#footer {
+    background-color: black;
+    height: 130px;
+    text-align: center;
+
+}
+
+.footer h1 {
+    color: brown;
+    padding-top: 20px;
+}
+
+.footer p {
+    color: white;
+}
+
+/* footer section end */
